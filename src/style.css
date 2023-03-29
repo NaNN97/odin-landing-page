@@ -1,0 +1,171 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100&display=swap');
+
+body, html{
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+
+}
+
+header {
+  background-color: #1F2937;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 10px 10vw;
+}
+
+h1 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  text-decoration-style: none;
+  color: white;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  gap: 20px;
+}
+
+li {
+  gap: 50px;
+}
+
+.section1 {
+  background-color: #1F2937;
+  color: white;
+  height: 25vh;
+  margin: 0;
+  padding: 100px 10vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.section1-left {
+  flex: 1 1 0px;
+}
+
+.section1-header {
+  font-size: 48px;
+  color: #F9FAF8;
+}
+
+.section1-paragraph {
+  color: #E5E7EB;
+}
+
+.section1-button {
+  color: white;
+  padding: 8px 30px;
+  background-color: #3882F6;
+  font-weight: bolder;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  border-radius: 8px;
+}
+
+.section1-right {
+  flex: 1 1 0px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.4);
+  color: white;
+}
+
+.section1-placeholder {
+  padding: 100px;
+}
+
+.section2 {
+  display: flex;
+  height: 25vh;
+  margin: 0px auto;
+  padding: 100px 10vw;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+
+}
+
+.section2-header {
+}
+
+.section2-footer {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.box-wrap {
+  display: flex;
+  width: 120px;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 25px;
+}
+
+.box {
+  height: 120px;
+  width: 120px;
+  border: solid 4px #3882F6;
+  border-radius: 10px;
+  margin: 0 auto;
+}
+
+.section3 {
+  background-color: #E5E7EB;
+  height: 25vh;
+  padding: 10px 10vw;
+  margin: 0px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quote {
+  color: #1F2937;
+  text-align: left;
+  width: 50%;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  margin: 0px;
+  padding: 0px;
+}
+
+.signature {
+  margin: 0px;
+  padding: 0px;
+  font-size: 24px;
+  font-weight: bold;
+  align-self: flex-end;
+  background-color: #E5E7EB;
+}
+
+footer {
+  background-color: #1F2937;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 10vw;
+
+}
+
+footer p {
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}
